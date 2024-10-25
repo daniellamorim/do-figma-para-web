@@ -1,0 +1,90 @@
+/*
+COLORS
+-> Font Black: #1D2124
+-> Font White: #FFFFFF
+-> Header (and Insta) Gray: #293339
+-> Header Off Button: #53595D
+-> Background Light Gray: #D9D9D9
+-> Background Dark Gray: #1D2124
+-> Button Light Blue: #B1C8D7
+-> Button Dark Blue: #8AA3B4
+
+*/
+
+/* CONFIGS GERAIS */
+body{
+    height: 100vh;
+}
+
+/* INSTA BUTTON */
+
+/* HEADER */
+header{
+    background-color: #293339;
+
+    height: 10vh;
+    
+    display: flex;
+}
+.icon{
+    height: 100%;
+    width: 15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon{
+    background-color: #D9D9D9;
+
+    height: 7vh;
+    width: 7vh;
+
+    border-radius: 10px;
+}
+.redirectPages{
+    height: 100%;
+    width: 85%;
+
+    padding: 0 10vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redirectLink{
+    height: 60%;
+    width: 25%;
+}
+
+/* MAIN */
+main{
+    background-color: #D9D9D9;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linkToPage2{
+    padding: 7vh 10vh;
+}
+
+/* --- SPECIFIC ELEMENTS */
+/* BUTTON STYLE - LIGHT BLUE */
+.buttonStyle-LightBlue{
+    background-color: #B1C8D7;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- FONTS */
+/* TITLE 1 */
+
+/* TITLE 2 (@) */
+
+/* TEXTS TO READ */
